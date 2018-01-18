@@ -1,0 +1,119 @@
+/*@import url(reset.css);*/
+
+
+body{font-family: 'Lato', sans-serif;
+	padding: 0;
+	margin: 0;
+	color: #222222;
+}
+.wrapper {
+	width: 900px;
+	margin: 0 auto;
+}
+.clearfix: after { 
+	content:'';
+	display: table;
+	width: 100%
+	clear: both;
+	
+	
+	
+}
+
+.posent {
+	float: right;
+	text-align: center;
+	margin-top: 180px;
+	
+}
+
+.tel {
+    position: fixed;
+    bottom: 100px;
+    right: 200px;
+}
+
+.kol{
+	width: 1000px;
+	height: 1000px;
+	background-image: url("../img/kol.png");
+	background-repeat: no-repeat;
+	position: absolute;
+	top: 10px;
+	left: 5px;
+	background-size: 250px;
+	
+}
+
+
+
+div {
+	width: 100%;
+	
+	/*margin: 40px auto;
+	/*display:flex;
+	justify-content:center;
+	align-items:center;*/
+	
+}
+
+header {
+	background: url(../img/fon.jpg) no-repeat center top / cover;
+	height: 100vh;
+}
+
+}
+.container {
+	width: 930px;
+	margin: 0 auto;
+	
+	
+}
+
+
+
+nav {
+	/*float: right;*/
+	width: 900px;
+	margin: 0 auto;
+}
+
+.menu {
+	padding: 0;
+	margin: 50px;
+	display: block;
+	float: right;
+}
+
+.menu li {
+	float: left;
+	display: block;
+	width: 100px;
+	text-align: center;
+	/*margin-right: 41px;*/
+}
+
+.menu a {
+	color: #fff;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 14px;
+}
+
+.posent {
+	text-align: center;
+}
+
+
+h1 {
+	font-size: 75px;
+	font-family: 'Poppins', sans-serif;
+	color: #fff;
+	text-transform: uppercase;
+	text-align: center;
+	margin: 15px;
+}
+
+
+
+
