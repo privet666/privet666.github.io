@@ -1,0 +1,185 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+<title>Лендинг</title>
+	<link href="css/style.css" type="text/css" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Lato|Poppins" rel="stylesheet">
+	 <link rel="stylesheet" href="css/animate.css">
+	<script src="https://yastatic.net/jquery/3.1.1/jquery.min.js">
+	</script>
+	
+	</head>
+	
+	
+
+<body>
+<header >
+		<div class="container">
+			
+	<!--< header
+	-логотип(создать логотип для страницы)
+	-меню (навигация)
+
+	-->
+	
+			<div class="heading clearfix">	
+					<nav> 
+						<ul class="menu">
+							<li>
+								<a href="#">Home</a>
+							</li>
+							<li>
+								<a href="#suda">About us</a>
+							</li>
+							<li>
+								<a href="#rew">Reviews</a>
+							</li>
+							<li>
+								<a href="#">Feedback</a>
+							</li>
+
+						</ul>
+					</nav>
+					<div class="posent <!--animated pulse infinite"-->>
+						<h1> Landing Page </h1>
+					
+					</div>
+				
+				
+			
+		</div>
+		
+		
+	</header>	
+
+	<div class="kol animated pulse infinite">
+				<!--<img src="img/kol.png" width="1000px">-->
+			</div>
+	<div class= "wrapper">
+	
+	<!-- content
+	- "каруселька"
+	-статься
+	-отзывы
+	-форма обратной связи -->
+
+	<main>
+		
+		<a href="#form">
+			<img src="img/gi.png" alt="позвони нам" class="tel animated pulse infinite" width="100px">
+		</a>
+		 
+		
+		
+		<article id="suda">
+			<div class="container">
+			<!--Выбрать шрифт для заголовка-->
+			
+			<p> Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. 
+			
+			Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
+
+				The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.</p>
+		</div>
+		</article>
+		
+		
+		<section class="otzov">
+			<div  class="container">
+			<table border="0" width="100%" >
+				<tr><td><img src="img/human1.jpg" width="200" height="200" alt="Чел1"></td>
+				<td><p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p></td></tr>  
+				<tr><td><p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).</p></td>
+				<td><img src="img/human1.jpg" width="200" height="200" alt="Чел2"></td></tr>
+			</table>
+			</div>
+		</section>
+		
+		<section class="forma"> 
+		<!-- создать форму заказа обратного звонка. форма будет состоять из полей: 
+		- поле имя
+		-поле телефон
+		-поле дата/ время
+		-кнопка отправить (разработать дизайн кнопки)-->
+		</section>
+	
+	</main>
+	
+	<section id="rew" class="karusel">
+	<div class="container">
+		<!-- разместить айфрейм с возможностью просмотра страниц-->
+			<iframe src="https://www.youtube.com/embed/0WcATsRCgqM" name="karusel" width="1000" height="600">
+			<!-- надо ли здесбь что-то разместить?-->
+			</iframe>
+		</div>
+		</section>
+	
+	<!--footer
+	-копирайт
+	-меню
+	-логотип
+
+	-->
+
+	<footer>
+			<center><div class="container">
+			<p><a href="https://vk.com/feed"  target="_blank">  </p>	
+				<input type="image" src="img/vk.png" width="70">
+				
+			<a href="https://www.youtube.com/"  target="_blank">  	
+				<input type="image" src="img/you.png" width="70"> </a></center>
+				
+				
+				
+			</div>	
+	</footer>			
+	
+	<center><form action="formd.php" method="POST" name="meform" id="form" >
+		<fieldset>
+			<div class="container">
+			<p> Номер телефона </p>
+				<textarea name="name_fone" cols="35" rows="1" placeholder="+375"></textarea>
+				
+				<p>  Имя  </p>
+				<textarea name="name_you" cols="35" rows="1" placeholder="Введите Ваше имя"></textarea>
+				
+				<p> Email </p>
+				<textarea name="name_email" cols="35" rows="1" placeholder="you@gmail.com"></textarea>
+				
+				<p> Оставьте нам сообщение </p>
+				<textarea name="name_massage" cols="35" rows="10" placeholder="Оставьте нам сообщение"></textarea>
+				
+				<p> Время и дата </p>
+				<input type="datetime-local" name="name_datetime"/>
+					<p><input class="otp animated pulse infinite" type="image" src="img/blueButton.jpg"></p> </center>
+			</div>
+		</fieldset>
+	</form>
+	</div>
+	<script>
+	$(window).scroll(function() {
+    $('.posent').each(function(){
+      var imagePos = $(this).offset().top;
+      var topOfWindow = $(window).scrollTop();
+      if (imagePos < topOfWindow+200) {
+        $(this).addClass('pulse');
+      }
+    });
+  });
+	</script>
+	<script>
+	$(window).scroll(function() {
+    $('.otp').each(function(){
+      var imagePos = $(this).offset().top;
+      var topOfWindow = $(window).scrollTop();
+      if (imagePos < topOfWindow+100) {
+        $(this).addClass('pulse');
+      }
+    });
+  });
+	</script>
+</body> 
+</html>
